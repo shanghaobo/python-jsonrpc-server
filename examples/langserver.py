@@ -71,5 +71,5 @@ if __name__ == "__main__":
     app = web.Application([
         (r"/python", LanguageServerWebSocketHandler),
     ])
-    app.listen(3000, address='127.0.0.1')
+    app.listen(5000, address='127.0.0.1')
     ioloop.IOLoop.current().start()

@@ -29,7 +29,7 @@ Start by installing `tornado` and `python-language-server`
 
 ``pip install python-language-server[all] tornado``
 
-Then running `python examples/langserver.py` or `python examples/langserver_ext.py` will host a websocket on ``ws://localhost:3000/python``.
+Then running `python examples/langserver.py` or `python examples/langserver_ext.py` will host a websocket on ``ws://localhost:5000/python``.
 
 To setup a client, you can use the examples from `Monaco Language Client`_.
 
